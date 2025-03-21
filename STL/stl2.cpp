@@ -4,9 +4,9 @@
 
 using namespace std;
 
-int main(){
-
-    cin >> n;
-    cout << "Your number is: " << n << endl;
-    return 0;
+void explainPair(){
+    pair<int,int> p = {1,3}
+    cout << "REtrive second element::" << p.second;
 }
+
+explainPair();
